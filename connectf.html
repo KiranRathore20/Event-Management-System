@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+body
+{    background-image: url("fk.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
+</head>
+
+<body>
+    <h1>Are you ready to plan Your event!</h1>
+<p>  If you are ready to plan your event or if you just simply want to ask a question
+ or two,please submit the form below and connect with us now-we look forward to assisting
+ you with all of your event planning needs!</p>
+<h2> Connect Form </h2>
+     <div class="container">
+            <form action="connectt.php" method="post">
+                <div class="row">
+                 <div class="col-25">
+                <label for="first-name">First Name:</label>
+               </div>
+              <div class="col-75">
+             
+                <input type="text" name="fname" placeholder="first name" required>
+                </div>
+                </div>
+                <div class="row">
+                 <div class="col-25">
+                <label for="last-name">Last Name:</label>
+                       </div>
+                <div class="col-75">
+                <input type="text" name="lname" placeholder="last name" required>
+</div>
+</div>
+             
+                    <div class="row">
+                 <div class="col-25">
+                    <label for="Email">Email:</label>
+</div>
+                <div class="col-75">
+                <input type="email" name="email">
+                    </div>
+</div>
+
+                    <div class="row">
+                 <div class="col-25">
+                     <label for="phone">Phone:</label>
+</div>
+ <div class="col-75">
+                    <input type="phone" name="phone">
+                    </div>
+</div>
+
+                     <div class="row">
+                 <div class="col-25"> 
+                     <label for="Event">Event:</label>
+</div>
+<div class="col-75"> 
+                       <select name="event">
+                        <option value="event" selected disabled>event</option>
+                        <option value="Birthday">Birthday</option>
+                        <option value="Wedding">Wedding</option>
+                        <option value="Mettings">Mettings</option>
+                        <option value="Conserts">Conserts</option>
+                        <option value="Others">Others</option>
+</select>
+                </div>
+</div>
+        
+            <div class="row">
+                 <div class="col-25">
+                     <label for="Event Date">Event Date:</label>
+                </div>
+ <div class="col-75">
+                    <select name="day">
+                        <option value="0"selected disabled>day</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13"> 13</option>
+                        <option value="14"> 14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                         </select>
+                    <select name="month">
+                        <option value="0"selected disabled>month</option>
+                        <option value="Jan"> January</option>
+                        <option value="feb"> february</option>
+                        <option value="marh">March</option>
+                        <option value="april">april</option>
+                        <option value="may">may</option>
+                        <option value="June">june</option>
+                        <option value="July">july</option>
+                        <option value="aug">August</option>
+                        <option value="sept">september</option>
+                        <option value="Oct">october</option>
+                        <option value="nov">November</option>
+                        <option value="Dec">December</option>
+                        </select>
+                    <select name="year">
+                  <option value="0"selected disabled>year</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        </select>
+
+            </div>
+</div>
+            
+            <div class="row">
+                 <div class="col-25">
+               <b><label for="Location">Location:</label></b>
+                <div class="col-75">
+            <input type="text" name="vname" placeholder="Venu name" required>
+                </div>
+</div>
+<br>
+                <div class= "col">
+             <button type="submit">Submit</button>
+</div>
+
+            </form>
+        </div>
+</body>
+
+</html>
